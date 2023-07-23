@@ -5,7 +5,7 @@ body {
     color: #ffffff;
 }
 .countdown-container {
-    max-width: 350px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 5px;
     border: 5px solid #EFB0C9;
@@ -15,7 +15,7 @@ body {
 #body {
     font-family: Arial, sans-serif;
   text-align: center;
-  margin: 20px auto;
+  margin: 15px auto;
 }  
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
@@ -107,11 +107,16 @@ h1, h2, h3, h4, p {
 #footer {
     font-style: italic;
     width: 400px;
-    margin: 40px auto 20px;
+    margin: 40px auto;
     color: #333;
+    text-align: center;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+#footer a:hover {
+    color: skyblue;
 }
