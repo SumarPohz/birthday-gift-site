@@ -4,7 +4,19 @@ body {
     background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
 }
-
+.countdown-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px solid #EFB0C9;
+    border-radius: 5px;
+    background-color: lightslategrey;
+  }
+#body {
+    font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}  
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
