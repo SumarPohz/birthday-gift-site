@@ -59,7 +59,7 @@ h1, h2, h3, h4, p {
     height: 350px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("../img/jasonGift.jpg");
+    background-image: url("./img/jasonGift.jpg");
     background-size: cover;
 }
 .gift-img-1{
@@ -68,28 +68,28 @@ h1, h2, h3, h4, p {
     height: 350px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("../img/jasonGift1.jpg");
+    background-image: url("./img/jasonGift1.jpg");
     background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("../img/gif/happy.gif.gif");
+    background-image: url("./img/happy.gif");
 }
 
 #gift-img-hot:hover {
-    background-image: url("../img/gif/reach.gif.gif");
+    background-image: url("./img/reach.gif");
 }
 
 #gift-img-genius:hover {
-    background-image: url("../img/gif/genius.gif.gif");
+    background-image: url("./img/genius.gif");
 }
 
 #gift-img-badass:hover {
-    background-image: url("../img/gif/badass.gif.gif");
+    background-image: url("./img/badass.gif");
 }
 
 #gift-img-cheers:hover {
-    background-image: url("../img/gif/cheers-salud.gif");
+    background-image: url("./img/cheers.gif");
 }
 
 #footer {
