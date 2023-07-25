@@ -4,14 +4,29 @@ body {
     background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
 }
-.countdown-container {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 5px;
-    border: 5px solid #EFB0C9;
-    border-radius: 5px;
-    background-color: lightslategrey;
+.bg-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/birthday.gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate 5s linear infinite;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
   }
+  @keyframes animate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+ 
+
 #body {
     font-family: Arial, sans-serif;
   text-align: center;
@@ -22,9 +37,9 @@ h1, h2, h3, h4, p {
 }
 
 #son-img {
-    height: 120px;
-    width: 250px;
-    border-radius: 20px;
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
 }
