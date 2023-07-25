@@ -29,16 +29,17 @@ body {
   .play-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: grey;
+    background: linear-gradient(rgb(158, 158, 152), red, rgb(158, 158, 152));
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
   .play-button:hover {
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    
+    background: linear-gradient(#EFB0C9, #a2d2ff , #EFB0C9);
+    color: #333;
   }
   
   #birthdayAudio {
