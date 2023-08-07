@@ -1,0 +1,58 @@
+*,
+*::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+}
+p {
+    margin-top: 30px;
+}
+body {
+    max-width: 1020px;
+    text-align: center;
+    align-items: center;
+    background-color: #edf1c6;
+}
+img {
+    width: 350px;
+    height: 170px;
+}
+.text {
+    background-color: yellow;
+}
+
+footer {
+    margin-top: 100px;
+    
+}
+footer img {
+    border-radius: 50%;
+}
+
+#footer-container {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.photo {
+    margin-bottom: 0;
+    align-items: right;
+    width: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.footer-text {
+    margin-top: 0;
+    text-align: left;
+}
